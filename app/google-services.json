@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275926169883",
+    "project_id": "rts-reviews",
+    "storage_bucket": "rts-reviews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275926169883:android:e591da1df7be274196fbbe",
+        "android_client_info": {
+          "package_name": "edu.umsl.rtsreviews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJcsDcovM6xiP4P7eSa5buWeDlXi51CLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
