@@ -79,4 +79,7 @@ dependencies {
 
     implementation("com.google.firebase:firebase-database-ktx")
     // implementation("com.google.firebase:firebase-core-ktx")
+
+    // Navigation
+    implementation("androidx.navigation:navigation-compose:2.4.1")
 }
