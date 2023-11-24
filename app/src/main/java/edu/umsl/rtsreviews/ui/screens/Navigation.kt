@@ -6,10 +6,13 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import edu.umsl.rtsreviews.Movie
 
+/**
+ * The navigation of the app, using the Jetpack Compose Navigation library
+ */
 @Composable
 fun RTSReviewsNavigation(moviesList: List<Movie>) {
 
-    // Create a NavController
+    // Control the navigation of the app
     val navController = rememberNavController()
 
     NavHost(navController, startDestination = "movieList") {
