@@ -37,12 +37,12 @@ import edu.umsl.rtsreviews.ui.calculateAverageRatingForMovie
 @Composable
 fun MovieDetailsScreen(movieId: String) {
     var movie by remember { mutableStateOf<Movie?>(null) }
-    var reviews by remember { mutableStateOf(emptyList<Review>()) }
+    var reviews by remember { mutableStateOf<List<Review>>(emptyList()) }
     var movieRating by remember { mutableStateOf(0.0) }
     var isLoading by remember { mutableStateOf(false) }
 
-    // Get reviews when the screen loads
-    LaunchedEffect(movieId) {
+    // Function to fetch movie and reviews
+    val fetchMovieAndReviews = {
         isLoading = true
 
         calculateAverageRatingForMovie(movieId) { rating ->
@@ -74,6 +74,11 @@ fun MovieDetailsScreen(movieId: String) {
                     isLoading = false
                 }
             })
+    }
+
+    // Get reviews when the screen loads
+    LaunchedEffect(movieId) {
+        fetchMovieAndReviews()
     }
 
     LazyColumn(
@@ -150,6 +155,8 @@ fun MovieDetailsScreen(movieId: String) {
                         // TODO Reset the loading state, handle and display the error message
                         isLoading = false
                     }
+
+                fetchMovieAndReviews()
             }
         }
     }

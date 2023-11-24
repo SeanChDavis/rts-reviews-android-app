@@ -82,6 +82,7 @@ fun MovieListScreen(moviesList: List<Movie>, navController: NavController) {
                             Row(
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
+
                                 // Found some built in icons!
                                 // https://developer.android.com/reference/kotlin/androidx/compose/material/icons/package-summary
                                 Icon(
