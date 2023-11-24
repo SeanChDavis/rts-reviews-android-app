@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "edu.umsl.rtsreviews.app-mergeDebugResources-54:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "edu.umsl.rtsreviews.app-mergeDebugResources-56:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "/Users/seandavis/.gradle/caches/transforms-3/098c2992520a10f6a74aa6128caf34e7/transformed/ui-release/res/values-en-rIN/values-en-rIN.xml",

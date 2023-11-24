@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "edu.umsl.rtsreviews.app-mergeDebugResources-54:/values-lt/values-lt.xml",
+            "outputFile": "edu.umsl.rtsreviews.app-mergeDebugResources-56:/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/Users/seandavis/.gradle/caches/transforms-3/9a7d3ab4a0ab0a859448898a87926018/transformed/material3-1.1.2/res/values-lt/values-lt.xml",

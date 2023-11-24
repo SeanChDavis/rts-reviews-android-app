@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "edu.umsl.rtsreviews.app-mergeDebugResources-54:/values-fa/values-fa.xml",
+            "outputFile": "edu.umsl.rtsreviews.app-mergeDebugResources-56:/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "/Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/res/values-fa/values.xml",

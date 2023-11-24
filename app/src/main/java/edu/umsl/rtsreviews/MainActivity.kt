@@ -30,6 +30,7 @@ data class Movie(
     val id: String = "",
     val title: String = "",
     val description: String = "",
+    val imageUrl: String = "",
     var averageRating: Double = 0.0 // Just a calculation, not a data field
 )
 
