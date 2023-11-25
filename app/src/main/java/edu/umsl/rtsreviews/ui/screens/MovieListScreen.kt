@@ -62,6 +62,28 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
             modifier = Modifier.padding(18.dp)
         ) {
 
+            // Simple app introduction. Not an official app header, but it works.
+            item {
+
+                Column( modifier = Modifier.padding(bottom = 24.dp) )
+                {
+
+                    Text(
+                        text = "RTS Reviews",
+                        style = MaterialTheme.typography.titleLarge,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+
+                    Text(
+                        text = "Welcome to RTS Reviews! This is a simple app that allows you to " +
+                                "view and review movies. You can also view other people's reviews " +
+                                "and add your own. Enjoy!",
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+            }
+
+            // Loop through the movies and display them
             items(movies) { movie ->
 
                 Row(

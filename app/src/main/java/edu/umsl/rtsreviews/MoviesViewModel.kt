@@ -32,6 +32,11 @@ class MoviesViewModel : ViewModel() {
     private val _reviews = MutableStateFlow<List<Review>>(emptyList())
     val reviews: StateFlow<List<Review>> = _reviews.asStateFlow()
 
+    // Get the average rating of a movie
+    fun getAverageRating(reviews: List<Review>): Double {
+        return if (reviews.isNotEmpty()) reviews.map { it.rating }.average() else 0.0
+    }
+
     // Expose a flow for loading state
     private val _isLoading = MutableStateFlow(false)
     val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
@@ -39,11 +44,6 @@ class MoviesViewModel : ViewModel() {
     // Allow setting the loading state from outside the ViewModel
     fun setLoading(loading: Boolean) {
         _isLoading.value = loading
-    }
-
-    // Get the average rating of a movie
-    fun getAverageRating(reviews: List<Review>): Double {
-        return if (reviews.isNotEmpty()) reviews.map { it.rating }.average() else 0.0
     }
 
     // Initialize the ViewModel
