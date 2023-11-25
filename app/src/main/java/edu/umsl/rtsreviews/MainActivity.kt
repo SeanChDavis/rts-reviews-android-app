@@ -1,13 +1,9 @@
 package edu.umsl.rtsreviews
 
-// App dependencies
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.viewmodel.compose.viewModel
 import edu.umsl.rtsreviews.ui.screens.RTSReviewsNavigation
 import edu.umsl.rtsreviews.ui.theme.RTSReviewsTheme
@@ -42,10 +38,6 @@ data class Movie(
  */
 class MainActivity : ComponentActivity() {
 
-    // Global MutableState for the list of movies, meaning this list can (and will) be changed.
-    // See https://www.javatpoint.com/mutable-and-immutable-in-java
-    private val moviesList = mutableStateOf(listOf<Movie>())
-
     /**
      * This override is called immediately when the Main Activity is created. It runs the moment
      * the app is opened.
@@ -65,13 +57,23 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    /**
+     * === The main app
+     * This is the main app, which is called from the setContent block above.
+     * It calls the RTSReviewsNavigation function, which is the app's navigation.
+     * --- See Navigation.kt for more details.
+     * More importantly, it calls the MoviesViewModel, which is the app's single source of truth.
+     * --- See MoviesViewModel.kt for more details.
+     * ~ Notes by Sean
+     */
     @Composable
     fun RTSReviewsApp() {
 
-        // Use the movies state from the ViewModel
+        // A single instance of the MoviesViewModel is used throughout the app.
+        // If I had hair, I would have pulled it out trying to figure this out!
         val moviesViewModel: MoviesViewModel = viewModel()
-        val movies by moviesViewModel.movies.collectAsState()
 
-        RTSReviewsNavigation(moviesList = movies)
+        // Call the navigation function, passing in the MoviesViewModel.
+        RTSReviewsNavigation(moviesViewModel)
     }
 }
