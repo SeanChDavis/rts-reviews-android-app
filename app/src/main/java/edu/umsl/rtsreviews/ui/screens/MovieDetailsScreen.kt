@@ -77,7 +77,7 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
         // ~ Notes by Sean
         item {
 
-            // Display movie details
+            // Display movie details if the movie exists
             movie?.let {
 
                 Row(
@@ -170,7 +170,7 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
                     }
 
                 // Update the movie's rating in the ViewModel so it can be updated in the main list.
-                // Without this, the main list won't update the movie's rating! An annoying bug!
+                // Without this, the main list won't update the movie's rating everywhere!
                 // That is the exact reason why we must have a single source of truth: the ViewModel.
                 // ~ Notes by Sean
                 moviesViewModel.updateMovieRating(movieId)
