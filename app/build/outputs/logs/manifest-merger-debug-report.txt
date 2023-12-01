@@ -4,92 +4,92 @@ ADDED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/Androi
 INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml:2:1-28:12
-MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:2:1-18:12
-MERGED from [androidx.compose.material3:material3:1.1.2] /Users/seandavis/.gradle/caches/transforms-3/9a7d3ab4a0ab0a859448898a87926018/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/8585168bfc4552a23887fd646b287464/transformed/navigation-common-2.7.5/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/6fb464c53222181a746d3c120432f71e/transformed/navigation-runtime-2.7.5/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/8b1bb7dcf653b2704625b48c00a9a3df/transformed/navigation-common-ktx-2.7.5/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/64395a734c97ca6172bdc9325db96e03/transformed/navigation-runtime-ktx-2.7.5/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-compose:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/9a9ecb31ccbaec3622841d10aedb28d2/transformed/navigation-compose-2.7.5/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/f2af7a005aa63052529ae5f4fffa0d45/transformed/activity-1.8.1/AndroidManifest.xml:17:1-22:12
-MERGED from [io.coil-kt:coil-compose:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/c9c7c016504729c52d1da7620aea13b7/transformed/coil-compose-2.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [io.coil-kt:coil-compose-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/b7e9704391eb515e6205fc5b7a4943d3/transformed/coil-compose-base-2.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/fe7f995564b653ad69863657b0d0c8f4/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e7a8fd652b8393646d326afee97a7208/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/097ede9431e3fda14c547cff74b59967/transformed/material-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/30ee2f5337f5dcaa9cf929cb0b327170/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/34952722b942b713968339cbf3cccb74/transformed/animation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/910ae25a042518e202871aa71bc2d844/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/f3893f3c98ca8f4a545d4398284748d1/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6b6e4573311bfd509cb774343a142540/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e208dc05befa227bf6e925ef07ba34c4/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/8c2b9d6beb7ac40006c1077b74fe51ee/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/77aa13109ffd49167a0f55a811761d76/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/f51c10563f9289aafaf3f85629cc480d/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/3e26d106390dfadba6be39d6829ab1d5/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94f00772924d2ca548f671f33af778d6/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/3b1b9daa5b032fbe6afbc7c2f52e402b/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/0541419bb8ec41ff3ace6bbb76349460/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/5a151974c8c10f9f1979ceeb714bd2bb/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/4203ca0583c34092bc93d6f680a6af1a/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/seandavis/.gradle/caches/transforms-3/c8a372e2dea8cb536f3081c6c2b7b77b/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/d22542d20793510f0958e68101addaf6/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/cef4f54a5b01ae170f76389997d9312a/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9a284fabccf289a2c5a3c6a32bec9aab/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/715fafd6cfc822dcca70490173f954bf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/6be82c03d610e1fcb4406e1fe924bcde/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/12e04205160431cbcbaf7053b431eb7f/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/7be472dd6b40315a99cbd287d20e79b1/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/ee08bea5a68027fb11d60217279c7725/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/7409b1d5ba5d62a0ce69e9c56c9c8b8d/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/6a018466877aa4c03fd45b6fa9f67be9/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/5756ec6ee6740ee42731b4e80f4ffea0/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/9b837fb2ec26c429ff50c33040a3c4f8/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/95a8e2ef0627e1b4cdc43c6928574f5d/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.23.1] /Users/seandavis/.gradle/caches/transforms-3/483297be53053a822269a3265b234ed7/transformed/accompanist-drawablepainter-0.23.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/098c2992520a10f6a74aa6128caf34e7/transformed/ui-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ec6d8d47e1d972bf84bc9304eed8acf1/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ba3fbeb9b56ed1bc6defad7ab48db65f/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity-compose:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/89becc10e9e81698f0ba22456a535a4c/transformed/activity-compose-1.8.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/e287ec251d5b8f3708e8245459c722f9/transformed/activity-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/7046971a3985d4fa3c0e7066c677985a/transformed/coil-2.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [io.coil-kt:coil-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/40d8e973a19cecda84177e16e54fb2af/transformed/coil-base-2.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/6390c7b9bf0fdb4079ffcd57063b1e8f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/c8e2e5741180dc1aac26124256cc19eb/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/355078dc773ba64bef272cc4c8df8156/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/seandavis/.gradle/caches/transforms-3/cec8dd67026377c18d8f6e3f65bfe374/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/7416c42763f894242d8ee39c095bd6f7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/08323cc86a4d3b6121fbaae4b1ad3dca/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/cf0008b848ad087e61c1ad77b0f8df9f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/449fd7092f2e72281ccf32eddea256dc/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/4ec7d2983de3f173374103ceb22415e5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/f53417f4ae445f3abff06d1a8b8f6a2b/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/a9c0c4904a34ac4042f1c136ad3fb040/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/ce6fb7766b1a3863b7546a5f2d61033c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/de8b38e291dfb31ab40bbf50bfbb6750/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58ff136a9cad76cfc92009bab833a2c2/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/4240dd1e57ffea87fca30c15c5bd77a4/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/09cd1fe1eaa228bdc05903a62c726b23/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/068f18fce9725c0e79ff994864dbe53a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/40ca0f65932554e9cdbc4d66b6633d86/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/seandavis/.gradle/caches/transforms-3/8dd8576269634e3201fe0c4a8833cc1c/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/seandavis/.gradle/caches/transforms-3/a01502d2292a018216886ac9841bf056/transformed/firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/51c432835795083f4855b3c3d8326248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9769aee7a4993f67fcb25979b7730c8f/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/seandavis/.gradle/caches/transforms-3/1ed89f119bf6c62856cd6f4b99a307bd/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/77aeed8f5b622bbf18a6bb460b6370d5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/c8c3240190e7d7405d186259bf793473/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/80417a8ab9459394ba7bf9a10a9d8a5f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/31af9f364e1a59e649177e87acce165f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.compose.material3:material3:1.1.2] /Users/seandavis/.gradle/caches/transforms-3/dc672294646da2211de00b1971aa91f0/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/2ef34b6199d7a5af767865fdb2b8f37f/transformed/navigation-common-2.7.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/bc011d6a3776765fde288bc5d7c69a21/transformed/navigation-runtime-2.7.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/1be384d99e37be2699912da08ad38c1b/transformed/navigation-common-ktx-2.7.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/949c65793bf665f525e438165281f5e4/transformed/navigation-runtime-ktx-2.7.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/c769621b6fe3318f9ecf8605f8c74920/transformed/navigation-compose-2.7.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/b2d6c17411441f13c1265dcc970b9424/transformed/activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt:coil-compose:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/9d9730a371d30ac4edeff08638ad2b33/transformed/coil-compose-2.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-compose-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/f21ec25220bb93c5062d103a5c3f9873/transformed/coil-compose-base-2.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/0f2eb8932a1648620cbd4a4fc0abaca2/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6fec1b83d3f5fa05e5ad64d09542cd9e/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7ae4c5bb820030ad4c2d5cea37b74b1/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ee1f42fcd74dc41af7a19f0ddedec725/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/7631c8187acd1324023bba90eeb1e0fb/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/00920e7456fd22d5b9cef1bf737dfda4/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6c7fc04a5c7e5b64be0e0ea0c84b8a8a/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/520af7f960b148bfd74139cc8899cac2/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/8bcfb265ba171c9431da3c5a3a2d999f/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/483e0d9176576cdf6db90f5a0623d1bd/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/7cf87636e2ba52e71b576164d70efa95/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/db3f537624ff7f66b81ab0ba41cb8d1b/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e94e0b2ef0162f7f32fd216239e43c5b/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/9b90797a8a8dc086601e47b057df28b6/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/542051aa40d10c27a76e7a504569b8d8/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/870b866ecd02db4b628b4f51773522bc/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/6a68e27da6ee4ce41c0b6ba2b837e5e8/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/daf822c53165ac07d37a6493c89784fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/seandavis/.gradle/caches/transforms-3/73e10e6894ed25f75c4094c97123b7a7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/7244682c8070056a5c6126674c5c3d2c/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/40254609d394a9ac3fbe9e96b01c3d4e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/a0767fa9a0e5b3743cd8a5e26f5fe035/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/3b828a762c37d361a2731fb2ae60b4fb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/173d7b225011048eae767d362f9becf0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/28b81336e7f1df8c48de8fc620046370/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/870353f990859d4fbc52e0e97cbf6793/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f67341494b83297ba807a84312a32fd7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/28826eff4ab4b32a454d945cb1b50128/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/497a1e242db3da169a7f44bb96e01b37/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/dce5a61deaea069df0bfff1550b2569b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/cb7490a739efc71ddad027e08fcdf7a7/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/100c42ae5bb6ba0c8127e4da4382745a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/1b0fddcb9fb22fcfcee7f2526942d2e0/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.23.1] /Users/seandavis/.gradle/caches/transforms-3/89559eb15aab38c1b09ee31d69e27797/transformed/accompanist-drawablepainter-0.23.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b609dd8be6206b8cd164994c9df3dc20/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94fd3136e1c60909909d9664147d9e1d/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7f4d687a92da593efb1bdb228fa3b93/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/999060a55d325c0017f98edd480dd8ce/transformed/activity-compose-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/32cbed3fd8227b3feae68cb64ce56c1e/transformed/activity-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/da3f92b331e481785fcf8e4661447794/transformed/coil-2.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/4568612fbe023101fba68ad46d24c227/transformed/coil-base-2.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/3b723730319fd098473996873dc5cf18/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/9796e9910d718b86c9e133f2cd3cbf50/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/49b3c47dc4fb03e0e87c607dbc5e2c94/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/seandavis/.gradle/caches/transforms-3/ecd365ca96fdd2aaecebf2a5b98cb12c/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/4ec02213a6a8af0144490e24058c7eaf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/ae1734b99fde343c594cf9de6c7c3b14/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/257d74c733f8f3ff509b1c9d669fae83/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/83addc186a9c7f9e3815b05d44f4fc4e/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/839522d977500a688b59a1ac69517676/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/33e198b2c16327d44b7c86bff9cbe353/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/917c3217e4ff5c634abfc1eed498cf1f/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/589a7acf9c66054fe3649da98264e798/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/91fd5919e410df639ffad649850dfd79/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/97829fca8ff4900c8f5eafc9abc0e38f/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/36be7f4447c4c6084d83aa403da947d7/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/26d70d5a8b20dc57ec2f26efddc646a3/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/c6098e1fdd1e79b70e50f74c311b583b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/2a2bf29f50bae88883bbe1e1cb5bf5b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/seandavis/.gradle/caches/transforms-3/bbb763bcdc0050d8ce2e60c9d0702a6c/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/seandavis/.gradle/caches/transforms-3/104a88159087f06678f1bde8912dc015/transformed/firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/f789f3ea4b01d510ff069a615941e256/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9ae97c0ad8d8748ad3c42d3932300082/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/seandavis/.gradle/caches/transforms-3/a43a52c44ed9b692699c2e9973d51538/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/12ab9324406b473a5a6efa9dfb08924d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/0804d384360dcca30bfd6a55e686cddf/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/06080c1792571fa5628f9e7e4bc8faf1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/418f902cccdd2912a6ff1c2b3cd1abe7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -103,44 +103,44 @@ MERGED from [androidx.print:print:1.0.0] /Users/seandavis/.gradle/caches/transfo
 application
 ADDED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml:5:5-26:19
 INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml:5:5-26:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:8:5-16:19
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/5a151974c8c10f9f1979ceeb714bd2bb/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/5a151974c8c10f9f1979ceeb714bd2bb/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/4203ca0583c34092bc93d6f680a6af1a/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/4203ca0583c34092bc93d6f680a6af1a/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/d22542d20793510f0958e68101addaf6/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/d22542d20793510f0958e68101addaf6/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ec6d8d47e1d972bf84bc9304eed8acf1/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ec6d8d47e1d972bf84bc9304eed8acf1/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ba3fbeb9b56ed1bc6defad7ab48db65f/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ba3fbeb9b56ed1bc6defad7ab48db65f/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/40ca0f65932554e9cdbc4d66b6633d86/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/40ca0f65932554e9cdbc4d66b6633d86/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/51c432835795083f4855b3c3d8326248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/51c432835795083f4855b3c3d8326248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/6a68e27da6ee4ce41c0b6ba2b837e5e8/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/6a68e27da6ee4ce41c0b6ba2b837e5e8/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/daf822c53165ac07d37a6493c89784fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/daf822c53165ac07d37a6493c89784fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/7244682c8070056a5c6126674c5c3d2c/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/7244682c8070056a5c6126674c5c3d2c/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/40254609d394a9ac3fbe9e96b01c3d4e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/40254609d394a9ac3fbe9e96b01c3d4e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94fd3136e1c60909909d9664147d9e1d/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94fd3136e1c60909909d9664147d9e1d/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7f4d687a92da593efb1bdb228fa3b93/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7f4d687a92da593efb1bdb228fa3b93/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/2a2bf29f50bae88883bbe1e1cb5bf5b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/2a2bf29f50bae88883bbe1e1cb5bf5b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/f789f3ea4b01d510ff069a615941e256/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/f789f3ea4b01d510ff069a615941e256/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -183,361 +183,361 @@ uses-sdk
 INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml
 INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml
-MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material3:material3:1.1.2] /Users/seandavis/.gradle/caches/transforms-3/9a7d3ab4a0ab0a859448898a87926018/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3:1.1.2] /Users/seandavis/.gradle/caches/transforms-3/9a7d3ab4a0ab0a859448898a87926018/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/8585168bfc4552a23887fd646b287464/transformed/navigation-common-2.7.5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/8585168bfc4552a23887fd646b287464/transformed/navigation-common-2.7.5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/6fb464c53222181a746d3c120432f71e/transformed/navigation-runtime-2.7.5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/6fb464c53222181a746d3c120432f71e/transformed/navigation-runtime-2.7.5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/8b1bb7dcf653b2704625b48c00a9a3df/transformed/navigation-common-ktx-2.7.5/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/8b1bb7dcf653b2704625b48c00a9a3df/transformed/navigation-common-ktx-2.7.5/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/64395a734c97ca6172bdc9325db96e03/transformed/navigation-runtime-ktx-2.7.5/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/64395a734c97ca6172bdc9325db96e03/transformed/navigation-runtime-ktx-2.7.5/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/9a9ecb31ccbaec3622841d10aedb28d2/transformed/navigation-compose-2.7.5/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/9a9ecb31ccbaec3622841d10aedb28d2/transformed/navigation-compose-2.7.5/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/f2af7a005aa63052529ae5f4fffa0d45/transformed/activity-1.8.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/f2af7a005aa63052529ae5f4fffa0d45/transformed/activity-1.8.1/AndroidManifest.xml:20:5-44
-MERGED from [io.coil-kt:coil-compose:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/c9c7c016504729c52d1da7620aea13b7/transformed/coil-compose-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-compose:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/c9c7c016504729c52d1da7620aea13b7/transformed/coil-compose-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-compose-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/b7e9704391eb515e6205fc5b7a4943d3/transformed/coil-compose-base-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-compose-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/b7e9704391eb515e6205fc5b7a4943d3/transformed/coil-compose-base-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/fe7f995564b653ad69863657b0d0c8f4/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/fe7f995564b653ad69863657b0d0c8f4/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e7a8fd652b8393646d326afee97a7208/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e7a8fd652b8393646d326afee97a7208/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/097ede9431e3fda14c547cff74b59967/transformed/material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/097ede9431e3fda14c547cff74b59967/transformed/material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/30ee2f5337f5dcaa9cf929cb0b327170/transformed/animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/30ee2f5337f5dcaa9cf929cb0b327170/transformed/animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/34952722b942b713968339cbf3cccb74/transformed/animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/34952722b942b713968339cbf3cccb74/transformed/animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/910ae25a042518e202871aa71bc2d844/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/910ae25a042518e202871aa71bc2d844/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/f3893f3c98ca8f4a545d4398284748d1/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/f3893f3c98ca8f4a545d4398284748d1/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6b6e4573311bfd509cb774343a142540/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6b6e4573311bfd509cb774343a142540/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e208dc05befa227bf6e925ef07ba34c4/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e208dc05befa227bf6e925ef07ba34c4/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/8c2b9d6beb7ac40006c1077b74fe51ee/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/8c2b9d6beb7ac40006c1077b74fe51ee/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/77aa13109ffd49167a0f55a811761d76/transformed/ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/77aa13109ffd49167a0f55a811761d76/transformed/ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/f51c10563f9289aafaf3f85629cc480d/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/f51c10563f9289aafaf3f85629cc480d/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/3e26d106390dfadba6be39d6829ab1d5/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/3e26d106390dfadba6be39d6829ab1d5/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94f00772924d2ca548f671f33af778d6/transformed/ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94f00772924d2ca548f671f33af778d6/transformed/ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:19:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/3b1b9daa5b032fbe6afbc7c2f52e402b/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/3b1b9daa5b032fbe6afbc7c2f52e402b/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/0541419bb8ec41ff3ace6bbb76349460/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/0541419bb8ec41ff3ace6bbb76349460/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/5a151974c8c10f9f1979ceeb714bd2bb/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/5a151974c8c10f9f1979ceeb714bd2bb/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/4203ca0583c34092bc93d6f680a6af1a/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/4203ca0583c34092bc93d6f680a6af1a/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/seandavis/.gradle/caches/transforms-3/c8a372e2dea8cb536f3081c6c2b7b77b/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/seandavis/.gradle/caches/transforms-3/c8a372e2dea8cb536f3081c6c2b7b77b/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/d22542d20793510f0958e68101addaf6/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/d22542d20793510f0958e68101addaf6/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/cef4f54a5b01ae170f76389997d9312a/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/cef4f54a5b01ae170f76389997d9312a/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9a284fabccf289a2c5a3c6a32bec9aab/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9a284fabccf289a2c5a3c6a32bec9aab/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/715fafd6cfc822dcca70490173f954bf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/715fafd6cfc822dcca70490173f954bf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/6be82c03d610e1fcb4406e1fe924bcde/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/6be82c03d610e1fcb4406e1fe924bcde/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/12e04205160431cbcbaf7053b431eb7f/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/12e04205160431cbcbaf7053b431eb7f/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/7be472dd6b40315a99cbd287d20e79b1/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/7be472dd6b40315a99cbd287d20e79b1/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/ee08bea5a68027fb11d60217279c7725/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/ee08bea5a68027fb11d60217279c7725/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/7409b1d5ba5d62a0ce69e9c56c9c8b8d/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/7409b1d5ba5d62a0ce69e9c56c9c8b8d/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/6a018466877aa4c03fd45b6fa9f67be9/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/6a018466877aa4c03fd45b6fa9f67be9/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/5756ec6ee6740ee42731b4e80f4ffea0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/5756ec6ee6740ee42731b4e80f4ffea0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/9b837fb2ec26c429ff50c33040a3c4f8/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/9b837fb2ec26c429ff50c33040a3c4f8/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/95a8e2ef0627e1b4cdc43c6928574f5d/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/95a8e2ef0627e1b4cdc43c6928574f5d/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.23.1] /Users/seandavis/.gradle/caches/transforms-3/483297be53053a822269a3265b234ed7/transformed/accompanist-drawablepainter-0.23.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.23.1] /Users/seandavis/.gradle/caches/transforms-3/483297be53053a822269a3265b234ed7/transformed/accompanist-drawablepainter-0.23.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/098c2992520a10f6a74aa6128caf34e7/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/098c2992520a10f6a74aa6128caf34e7/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ec6d8d47e1d972bf84bc9304eed8acf1/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ec6d8d47e1d972bf84bc9304eed8acf1/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ba3fbeb9b56ed1bc6defad7ab48db65f/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ba3fbeb9b56ed1bc6defad7ab48db65f/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/89becc10e9e81698f0ba22456a535a4c/transformed/activity-compose-1.8.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/89becc10e9e81698f0ba22456a535a4c/transformed/activity-compose-1.8.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/e287ec251d5b8f3708e8245459c722f9/transformed/activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/e287ec251d5b8f3708e8245459c722f9/transformed/activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/7046971a3985d4fa3c0e7066c677985a/transformed/coil-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/7046971a3985d4fa3c0e7066c677985a/transformed/coil-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/40d8e973a19cecda84177e16e54fb2af/transformed/coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/40d8e973a19cecda84177e16e54fb2af/transformed/coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/6390c7b9bf0fdb4079ffcd57063b1e8f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/6390c7b9bf0fdb4079ffcd57063b1e8f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/c8e2e5741180dc1aac26124256cc19eb/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/c8e2e5741180dc1aac26124256cc19eb/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/355078dc773ba64bef272cc4c8df8156/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/355078dc773ba64bef272cc4c8df8156/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/seandavis/.gradle/caches/transforms-3/cec8dd67026377c18d8f6e3f65bfe374/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/seandavis/.gradle/caches/transforms-3/cec8dd67026377c18d8f6e3f65bfe374/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/7416c42763f894242d8ee39c095bd6f7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/7416c42763f894242d8ee39c095bd6f7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/08323cc86a4d3b6121fbaae4b1ad3dca/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/08323cc86a4d3b6121fbaae4b1ad3dca/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/cf0008b848ad087e61c1ad77b0f8df9f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/cf0008b848ad087e61c1ad77b0f8df9f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/449fd7092f2e72281ccf32eddea256dc/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/449fd7092f2e72281ccf32eddea256dc/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/4ec7d2983de3f173374103ceb22415e5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/4ec7d2983de3f173374103ceb22415e5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/f53417f4ae445f3abff06d1a8b8f6a2b/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/f53417f4ae445f3abff06d1a8b8f6a2b/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/a9c0c4904a34ac4042f1c136ad3fb040/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/a9c0c4904a34ac4042f1c136ad3fb040/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/ce6fb7766b1a3863b7546a5f2d61033c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/ce6fb7766b1a3863b7546a5f2d61033c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/de8b38e291dfb31ab40bbf50bfbb6750/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/de8b38e291dfb31ab40bbf50bfbb6750/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58ff136a9cad76cfc92009bab833a2c2/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58ff136a9cad76cfc92009bab833a2c2/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/4240dd1e57ffea87fca30c15c5bd77a4/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/4240dd1e57ffea87fca30c15c5bd77a4/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/09cd1fe1eaa228bdc05903a62c726b23/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/09cd1fe1eaa228bdc05903a62c726b23/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/068f18fce9725c0e79ff994864dbe53a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/068f18fce9725c0e79ff994864dbe53a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/40ca0f65932554e9cdbc4d66b6633d86/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/40ca0f65932554e9cdbc4d66b6633d86/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/seandavis/.gradle/caches/transforms-3/8dd8576269634e3201fe0c4a8833cc1c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/seandavis/.gradle/caches/transforms-3/8dd8576269634e3201fe0c4a8833cc1c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/seandavis/.gradle/caches/transforms-3/a01502d2292a018216886ac9841bf056/transformed/firebase-components-17.1.5/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/seandavis/.gradle/caches/transforms-3/a01502d2292a018216886ac9841bf056/transformed/firebase-components-17.1.5/AndroidManifest.xml:18:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/51c432835795083f4855b3c3d8326248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/51c432835795083f4855b3c3d8326248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9769aee7a4993f67fcb25979b7730c8f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9769aee7a4993f67fcb25979b7730c8f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/seandavis/.gradle/caches/transforms-3/1ed89f119bf6c62856cd6f4b99a307bd/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/seandavis/.gradle/caches/transforms-3/1ed89f119bf6c62856cd6f4b99a307bd/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/77aeed8f5b622bbf18a6bb460b6370d5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/77aeed8f5b622bbf18a6bb460b6370d5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/c8c3240190e7d7405d186259bf793473/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/c8c3240190e7d7405d186259bf793473/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/80417a8ab9459394ba7bf9a10a9d8a5f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/80417a8ab9459394ba7bf9a10a9d8a5f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/31af9f364e1a59e649177e87acce165f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/31af9f364e1a59e649177e87acce165f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] /Users/seandavis/.gradle/caches/transforms-3/dc672294646da2211de00b1971aa91f0/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] /Users/seandavis/.gradle/caches/transforms-3/dc672294646da2211de00b1971aa91f0/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/2ef34b6199d7a5af767865fdb2b8f37f/transformed/navigation-common-2.7.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/2ef34b6199d7a5af767865fdb2b8f37f/transformed/navigation-common-2.7.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/bc011d6a3776765fde288bc5d7c69a21/transformed/navigation-runtime-2.7.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/bc011d6a3776765fde288bc5d7c69a21/transformed/navigation-runtime-2.7.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/1be384d99e37be2699912da08ad38c1b/transformed/navigation-common-ktx-2.7.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/1be384d99e37be2699912da08ad38c1b/transformed/navigation-common-ktx-2.7.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/949c65793bf665f525e438165281f5e4/transformed/navigation-runtime-ktx-2.7.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/949c65793bf665f525e438165281f5e4/transformed/navigation-runtime-ktx-2.7.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/c769621b6fe3318f9ecf8605f8c74920/transformed/navigation-compose-2.7.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.5] /Users/seandavis/.gradle/caches/transforms-3/c769621b6fe3318f9ecf8605f8c74920/transformed/navigation-compose-2.7.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/b2d6c17411441f13c1265dcc970b9424/transformed/activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/b2d6c17411441f13c1265dcc970b9424/transformed/activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil-compose:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/9d9730a371d30ac4edeff08638ad2b33/transformed/coil-compose-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/9d9730a371d30ac4edeff08638ad2b33/transformed/coil-compose-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/f21ec25220bb93c5062d103a5c3f9873/transformed/coil-compose-base-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/f21ec25220bb93c5062d103a5c3f9873/transformed/coil-compose-base-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/0f2eb8932a1648620cbd4a4fc0abaca2/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/0f2eb8932a1648620cbd4a4fc0abaca2/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6fec1b83d3f5fa05e5ad64d09542cd9e/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6fec1b83d3f5fa05e5ad64d09542cd9e/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7ae4c5bb820030ad4c2d5cea37b74b1/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7ae4c5bb820030ad4c2d5cea37b74b1/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ee1f42fcd74dc41af7a19f0ddedec725/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ee1f42fcd74dc41af7a19f0ddedec725/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/7631c8187acd1324023bba90eeb1e0fb/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/7631c8187acd1324023bba90eeb1e0fb/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/00920e7456fd22d5b9cef1bf737dfda4/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/00920e7456fd22d5b9cef1bf737dfda4/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6c7fc04a5c7e5b64be0e0ea0c84b8a8a/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/6c7fc04a5c7e5b64be0e0ea0c84b8a8a/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/520af7f960b148bfd74139cc8899cac2/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/520af7f960b148bfd74139cc8899cac2/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/8bcfb265ba171c9431da3c5a3a2d999f/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/8bcfb265ba171c9431da3c5a3a2d999f/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/483e0d9176576cdf6db90f5a0623d1bd/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/483e0d9176576cdf6db90f5a0623d1bd/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/7cf87636e2ba52e71b576164d70efa95/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/7cf87636e2ba52e71b576164d70efa95/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/db3f537624ff7f66b81ab0ba41cb8d1b/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/db3f537624ff7f66b81ab0ba41cb8d1b/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e94e0b2ef0162f7f32fd216239e43c5b/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/e94e0b2ef0162f7f32fd216239e43c5b/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/9b90797a8a8dc086601e47b057df28b6/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/9b90797a8a8dc086601e47b057df28b6/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/542051aa40d10c27a76e7a504569b8d8/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/542051aa40d10c27a76e7a504569b8d8/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/870b866ecd02db4b628b4f51773522bc/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/870b866ecd02db4b628b4f51773522bc/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/6a68e27da6ee4ce41c0b6ba2b837e5e8/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/seandavis/.gradle/caches/transforms-3/6a68e27da6ee4ce41c0b6ba2b837e5e8/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/daf822c53165ac07d37a6493c89784fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seandavis/.gradle/caches/transforms-3/daf822c53165ac07d37a6493c89784fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/seandavis/.gradle/caches/transforms-3/73e10e6894ed25f75c4094c97123b7a7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/seandavis/.gradle/caches/transforms-3/73e10e6894ed25f75c4094c97123b7a7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/7244682c8070056a5c6126674c5c3d2c/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seandavis/.gradle/caches/transforms-3/7244682c8070056a5c6126674c5c3d2c/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/40254609d394a9ac3fbe9e96b01c3d4e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/40254609d394a9ac3fbe9e96b01c3d4e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/a0767fa9a0e5b3743cd8a5e26f5fe035/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/a0767fa9a0e5b3743cd8a5e26f5fe035/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/3b828a762c37d361a2731fb2ae60b4fb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/3b828a762c37d361a2731fb2ae60b4fb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/173d7b225011048eae767d362f9becf0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/173d7b225011048eae767d362f9becf0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/28b81336e7f1df8c48de8fc620046370/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/28b81336e7f1df8c48de8fc620046370/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/870353f990859d4fbc52e0e97cbf6793/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/870353f990859d4fbc52e0e97cbf6793/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f67341494b83297ba807a84312a32fd7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f67341494b83297ba807a84312a32fd7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/28826eff4ab4b32a454d945cb1b50128/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/28826eff4ab4b32a454d945cb1b50128/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/497a1e242db3da169a7f44bb96e01b37/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/497a1e242db3da169a7f44bb96e01b37/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/dce5a61deaea069df0bfff1550b2569b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/dce5a61deaea069df0bfff1550b2569b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/cb7490a739efc71ddad027e08fcdf7a7/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/seandavis/.gradle/caches/transforms-3/cb7490a739efc71ddad027e08fcdf7a7/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/100c42ae5bb6ba0c8127e4da4382745a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/100c42ae5bb6ba0c8127e4da4382745a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/1b0fddcb9fb22fcfcee7f2526942d2e0/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/1b0fddcb9fb22fcfcee7f2526942d2e0/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.23.1] /Users/seandavis/.gradle/caches/transforms-3/89559eb15aab38c1b09ee31d69e27797/transformed/accompanist-drawablepainter-0.23.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.23.1] /Users/seandavis/.gradle/caches/transforms-3/89559eb15aab38c1b09ee31d69e27797/transformed/accompanist-drawablepainter-0.23.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b609dd8be6206b8cd164994c9df3dc20/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b609dd8be6206b8cd164994c9df3dc20/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94fd3136e1c60909909d9664147d9e1d/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94fd3136e1c60909909d9664147d9e1d/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7f4d687a92da593efb1bdb228fa3b93/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7f4d687a92da593efb1bdb228fa3b93/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/999060a55d325c0017f98edd480dd8ce/transformed/activity-compose-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/999060a55d325c0017f98edd480dd8ce/transformed/activity-compose-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/32cbed3fd8227b3feae68cb64ce56c1e/transformed/activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/seandavis/.gradle/caches/transforms-3/32cbed3fd8227b3feae68cb64ce56c1e/transformed/activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/da3f92b331e481785fcf8e4661447794/transformed/coil-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/da3f92b331e481785fcf8e4661447794/transformed/coil-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/4568612fbe023101fba68ad46d24c227/transformed/coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/seandavis/.gradle/caches/transforms-3/4568612fbe023101fba68ad46d24c227/transformed/coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/3b723730319fd098473996873dc5cf18/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/3b723730319fd098473996873dc5cf18/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/9796e9910d718b86c9e133f2cd3cbf50/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/9796e9910d718b86c9e133f2cd3cbf50/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/49b3c47dc4fb03e0e87c607dbc5e2c94/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/49b3c47dc4fb03e0e87c607dbc5e2c94/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/seandavis/.gradle/caches/transforms-3/ecd365ca96fdd2aaecebf2a5b98cb12c/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/seandavis/.gradle/caches/transforms-3/ecd365ca96fdd2aaecebf2a5b98cb12c/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/4ec02213a6a8af0144490e24058c7eaf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/4ec02213a6a8af0144490e24058c7eaf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/ae1734b99fde343c594cf9de6c7c3b14/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seandavis/.gradle/caches/transforms-3/ae1734b99fde343c594cf9de6c7c3b14/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/257d74c733f8f3ff509b1c9d669fae83/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/257d74c733f8f3ff509b1c9d669fae83/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/83addc186a9c7f9e3815b05d44f4fc4e/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/83addc186a9c7f9e3815b05d44f4fc4e/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/839522d977500a688b59a1ac69517676/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/839522d977500a688b59a1ac69517676/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/33e198b2c16327d44b7c86bff9cbe353/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/33e198b2c16327d44b7c86bff9cbe353/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/917c3217e4ff5c634abfc1eed498cf1f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/917c3217e4ff5c634abfc1eed498cf1f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/589a7acf9c66054fe3649da98264e798/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/589a7acf9c66054fe3649da98264e798/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/91fd5919e410df639ffad649850dfd79/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/91fd5919e410df639ffad649850dfd79/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/97829fca8ff4900c8f5eafc9abc0e38f/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/97829fca8ff4900c8f5eafc9abc0e38f/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/36be7f4447c4c6084d83aa403da947d7/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/36be7f4447c4c6084d83aa403da947d7/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/26d70d5a8b20dc57ec2f26efddc646a3/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/26d70d5a8b20dc57ec2f26efddc646a3/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/c6098e1fdd1e79b70e50f74c311b583b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/c6098e1fdd1e79b70e50f74c311b583b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/2a2bf29f50bae88883bbe1e1cb5bf5b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/2a2bf29f50bae88883bbe1e1cb5bf5b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/seandavis/.gradle/caches/transforms-3/bbb763bcdc0050d8ce2e60c9d0702a6c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/seandavis/.gradle/caches/transforms-3/bbb763bcdc0050d8ce2e60c9d0702a6c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/seandavis/.gradle/caches/transforms-3/104a88159087f06678f1bde8912dc015/transformed/firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/seandavis/.gradle/caches/transforms-3/104a88159087f06678f1bde8912dc015/transformed/firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/f789f3ea4b01d510ff069a615941e256/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/f789f3ea4b01d510ff069a615941e256/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9ae97c0ad8d8748ad3c42d3932300082/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/9ae97c0ad8d8748ad3c42d3932300082/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/seandavis/.gradle/caches/transforms-3/a43a52c44ed9b692699c2e9973d51538/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/seandavis/.gradle/caches/transforms-3/a43a52c44ed9b692699c2e9973d51538/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/12ab9324406b473a5a6efa9dfb08924d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/12ab9324406b473a5a6efa9dfb08924d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/0804d384360dcca30bfd6a55e686cddf/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/0804d384360dcca30bfd6a55e686cddf/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/06080c1792571fa5628f9e7e4bc8faf1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/06080c1792571fa5628f9e7e4bc8faf1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/418f902cccdd2912a6ff1c2b3cd1abe7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/seandavis/.gradle/caches/transforms-3/418f902cccdd2912a6ff1c2b3cd1abe7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/seandavis/AndroidStudioProjects/RTSReviews/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:11:13-37
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:11:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:34:13-32
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:34:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:10:13-84
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:10:13-84
 meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar
-ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:12:13-14:85
+ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:12:13-14:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:14:17-82
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:14:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/9b733d2bfe09459aee36ff17626ec1f1/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:13:17-127
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/cbb355be6798c09e9b8827e59b78dbf4/transformed/firebase-database-ktx-20.3.0/AndroidManifest.xml:13:17-127
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/51c432835795083f4855b3c3d8326248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/51c432835795083f4855b3c3d8326248/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/f789f3ea4b01d510ff069a615941e256/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/seandavis/.gradle/caches/transforms-3/f789f3ea4b01d510ff069a615941e256/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/be7a028f830f32106a275f6d5195b4e5/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/seandavis/.gradle/caches/transforms-3/e7ef47ae758b0d7bbca858488e7973f0/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:22:5-79
+ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:22:22-76
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:22:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:23:5-67
+ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:23:22-64
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:23:22-64
 meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
-ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:31:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:30:17-120
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/5abe0d8e4181fd934e3eadb56e0886d1/transformed/firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/seandavis/.gradle/caches/transforms-3/ef367554bb15f8b1ee1e2debf7c32752/transformed/firebase-database-20.3.0/AndroidManifest.xml:33:17-109
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
 	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/47f655d333cf7ed31591c310445fc329/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/eb9b5c1800179465e914982b35fccca8/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:25:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:27:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:26:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:24:13-77
 meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
 	android:value
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:37:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/6b301706b1e0a7cc490126a4723c7d85/transformed/firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/seandavis/.gradle/caches/transforms-3/1281474c3393b49e0cd1b77e2bec85fe/transformed/firebase-common-20.4.2/AndroidManifest.xml:36:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/d143305733e5e592ae0fd2c8ac1e67d4/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/14e47190480cd2dc21d3cb6325d524fe/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/40254609d394a9ac3fbe9e96b01c3d4e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/40254609d394a9ac3fbe9e96b01c3d4e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/8c04395a1f19fb4682454e6a11eccd3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seandavis/.gradle/caches/transforms-3/40254609d394a9ac3fbe9e96b01c3d4e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/58e9b52e2fd59577a8d5e38e5d3d7cdc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/seandavis/.gradle/caches/transforms-3/f04f9494e3a83102a861800ac26762cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
 activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ec6d8d47e1d972bf84bc9304eed8acf1/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94fd3136e1c60909909d9664147d9e1d/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ec6d8d47e1d972bf84bc9304eed8acf1/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94fd3136e1c60909909d9664147d9e1d/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ec6d8d47e1d972bf84bc9304eed8acf1/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:24:13-63
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/94fd3136e1c60909909d9664147d9e1d/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:24:13-63
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ba3fbeb9b56ed1bc6defad7ab48db65f/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7f4d687a92da593efb1bdb228fa3b93/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ba3fbeb9b56ed1bc6defad7ab48db65f/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7f4d687a92da593efb1bdb228fa3b93/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/ba3fbeb9b56ed1bc6defad7ab48db65f/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/seandavis/.gradle/caches/transforms-3/b7f4d687a92da593efb1bdb228fa3b93/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 permission#edu.umsl.rtsreviews.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 uses-permission#edu.umsl.rtsreviews.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/21cd4332a08ba2e575c45b0c1920f818/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] /Users/seandavis/.gradle/caches/transforms-3/89dc0914777b4e70afb5a3caaba33dff/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/8fb969930974ebf821dcd30dca486c0e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/seandavis/.gradle/caches/transforms-3/b21bd0bbf7f35fa7b87ddebaa727f2ef/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

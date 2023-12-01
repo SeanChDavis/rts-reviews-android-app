@@ -31,8 +31,8 @@ import edu.umsl.rtsreviews.ui.ReviewForm
  * === SCREEN 2 - Single Movie
  * The individual movie screen, accessed from the default app screen movie list
  */
+// TODO add navController to below
 @Composable
-// TODO add navconteroller to below
 fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
 
     // Get the movie from the ViewModel
@@ -101,7 +101,7 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
                     Column {
 
                         Text(
-                            text = "${it.title}",
+                            text = it.title,
                             Modifier.padding(bottom = 8.dp),
                             style = MaterialTheme.typography.titleLarge,
                         )
@@ -117,7 +117,7 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
                 }
 
                 Text(
-                    text = "${it.description}",
+                    text = it.description,
                     Modifier.padding(bottom = 12.dp)
                 )
             }

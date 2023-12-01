@@ -69,6 +69,10 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
         ) {
 
             // Simple app introduction. Not an official app header, but it works.
+            // Must use "item" in order to use the LazyColumn.
+            // Even when there's only one item, like here, we still need to use "item".
+            // --- https://developer.android.com/jetpack/compose/lists#lazylistscope
+            // ~ Notes by Sean
             item {
 
                 Column( modifier = Modifier.padding(bottom = 24.dp) )
@@ -90,6 +94,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
             }
 
             // Loop through the movies and display them
+            // Also, when there are multiple items, we use "items" instead of "item"
             items(movies) { movie ->
 
                 Row(

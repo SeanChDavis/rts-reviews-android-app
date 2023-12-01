@@ -174,7 +174,7 @@ class MoviesViewModel : ViewModel() {
             val movieRef = FirebaseDatabase.getInstance().getReference("movies").child(movieId)
 
             // Listen for changes in Firebase and update the _selectedMovie StateFlow
-            movieRef.addListenerForSingleValueEvent(object : ValueEventListener {
+            movieRef.addValueEventListener(object : ValueEventListener {
 
                 override fun onDataChange(snapshot: DataSnapshot) {
 
@@ -209,7 +209,7 @@ class MoviesViewModel : ViewModel() {
 
             // Listen for changes in Firebase and update the _reviews StateFlow
             reviewsRef.orderByChild("movieId").equalTo(movieId)
-                .addListenerForSingleValueEvent(object : ValueEventListener {
+                .addValueEventListener(object : ValueEventListener {
 
                     override fun onDataChange(snapshot: DataSnapshot) {
 
@@ -240,7 +240,7 @@ class MoviesViewModel : ViewModel() {
 
         // Order the reviews by the movie they're attached to and listen for review changes.
         reviewsRef.orderByChild("movieId").equalTo(movieId)
-            .addListenerForSingleValueEvent(object : ValueEventListener {
+            .addValueEventListener(object : ValueEventListener {
 
                 override fun onDataChange(snapshot: DataSnapshot) {
 
