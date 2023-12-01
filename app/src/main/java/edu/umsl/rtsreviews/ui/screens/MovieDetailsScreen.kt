@@ -32,6 +32,7 @@ import edu.umsl.rtsreviews.ui.ReviewForm
  * The individual movie screen, accessed from the default app screen movie list
  */
 @Composable
+// TODO add navconteroller to below
 fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
 
     // Get the movie from the ViewModel
