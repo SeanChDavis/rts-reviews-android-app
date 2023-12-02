@@ -174,6 +174,51 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
 
     Column {
 
+        // RM added to create the Snackbar
+        if (snackbarVisibleState) {
+            Snackbar(
+                action = {
+                    Row {
+
+                        Text(
+                            text = "Return to Movies",
+                            modifier = Modifier.clickable { navController.navigate("movieList") },
+                            color = MaterialTheme.colorScheme.onTertiary,
+                            fontSize = MaterialTheme.typography.bodySmall.fontSize,
+                            fontWeight = FontWeight.Bold,
+                            style = MaterialTheme.typography.bodyMedium,
+                        )
+
+                        Text(
+                            text = " | ",
+                            color = MaterialTheme.colorScheme.onTertiary,
+                            fontSize = MaterialTheme.typography.bodySmall.fontSize,
+                            fontWeight = FontWeight.Bold,
+                            style = MaterialTheme.typography.bodyMedium
+                        )
+
+                        Text(
+                            text = "Dismiss ",
+                            modifier = Modifier.clickable { snackbarVisibleState = false },
+                            color = MaterialTheme.colorScheme.onTertiary,
+                            fontSize = MaterialTheme.typography.bodySmall.fontSize,
+                            fontWeight = FontWeight.Bold,
+                            style = MaterialTheme.typography.bodyMedium,
+                        )
+                    }
+
+                },
+                shape = MaterialTheme.shapes.medium,
+                containerColor = MaterialTheme.colorScheme.secondary,
+            ) {
+                Text(text = snackbarMessage)
+            }
+
+            Spacer(
+                modifier = Modifier.height(30.dp)
+            )
+        }
+
         Text(
             text = "Submit your own review:",
             Modifier.padding(bottom = 4.dp),
@@ -242,48 +287,6 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
         Spacer(
             modifier = Modifier.height(30.dp)
         )
-
-        // RM added to create the Snackbar
-        if (snackbarVisibleState) {
-            Snackbar(
-                modifier = Modifier.padding(top = 16.dp, bottom = 16.dp),
-                action = {
-                    Row {
-
-                        Text(
-                            text = "Return to Movies",
-                            modifier = Modifier.clickable { navController.navigate("movieList") },
-                            color = MaterialTheme.colorScheme.onTertiary,
-                            fontSize = MaterialTheme.typography.bodySmall.fontSize,
-                            fontWeight = FontWeight.Bold,
-                            style = MaterialTheme.typography.bodyMedium,
-                        )
-
-                        Text(
-                            text = " | ",
-                            color = MaterialTheme.colorScheme.onTertiary,
-                            fontSize = MaterialTheme.typography.bodySmall.fontSize,
-                            fontWeight = FontWeight.Bold,
-                            style = MaterialTheme.typography.bodyMedium
-                        )
-
-                        Text(
-                            text = "Dismiss ",
-                            modifier = Modifier.clickable { snackbarVisibleState = false },
-                            color = MaterialTheme.colorScheme.onTertiary,
-                            fontSize = MaterialTheme.typography.bodySmall.fontSize,
-                            fontWeight = FontWeight.Bold,
-                            style = MaterialTheme.typography.bodyMedium,
-                        )
-                    }
-
-                },
-                shape = MaterialTheme.shapes.medium,
-                containerColor = MaterialTheme.colorScheme.secondary,
-            ) {
-                Text(text = snackbarMessage)
-            }
-        }
 
         // When the user submits the review, create a Review object and pass it to the callback.
         // The callback is defined in MovieDetailsScreen.kt as a lambda function.
