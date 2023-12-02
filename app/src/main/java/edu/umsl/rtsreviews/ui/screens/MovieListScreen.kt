@@ -48,6 +48,11 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
     // Get the movies from the MoviesViewModel
     val movies by moviesViewModel.movies.collectAsState()
 
+    // Get the reviews and average review rating from the ViewModel
+    // (Needed to calculate the average rating based on Firebase reviews data)
+    val reviews by moviesViewModel.reviews.collectAsState()
+    val movieRating = moviesViewModel.getAverageRating(reviews)
+
     // Navigate to the movie details screen (just for convenience)
     // TODO RM this is the spot that you get the path
     val clickToMovie = { movieId: String ->
