@@ -1,10 +1,7 @@
 package edu.umsl.rtsreviews.ui.screens
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -31,8 +28,10 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -41,6 +40,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
 import edu.umsl.rtsreviews.MoviesViewModel
+import edu.umsl.rtsreviews.R
 
 /**
  * === SCREEN 1 (default) - Movie List
@@ -71,6 +71,15 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
         color = MaterialTheme.colorScheme.background
     ) {
 
+        // https://medium.com/@josephajire/how-to-add-background-image-to-your-android-project-with-jetpack-compose-1c5392967fd5
+        // Add background image to entire screen
+        Image(painterResource(id = R.drawable.star_bg), contentDescription = null,
+            modifier = Modifier
+                .alpha(0.1f)
+                .padding(top = 20.dp),
+            alignment = Alignment.TopEnd
+        )
+
         LazyColumn(
             modifier = Modifier.padding(20.dp)
         ) {
@@ -83,41 +92,42 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
             item {
 
                 Column(
-                    modifier = Modifier.padding(bottom = 32.dp)
+                    modifier = Modifier.padding(bottom = 40.dp)
                 ) {
 
-                    Text(
-                        text = "RTS Reviews",
-                        modifier = Modifier.padding(top = 10.dp, bottom = 16.dp),
-                        style = MaterialTheme.typography.titleLarge,
+                    // RTS Reviews Logo!
+                    Image(
+                        painterResource(
+                            id = R.drawable.rts_reviews_logo),
+                        contentDescription = "RTS Reviews Logo",
+                        modifier = Modifier
+                            .padding(bottom = 4.dp)
+                            .size(width = 161.dp, height = 62.dp)
                     )
 
-                    Column {
+                    // buildAnnotatedString is a way to style text within text. Pretty cool!
+                    // https://developer.android.com/jetpack/compose/text
+                    Text(
+                        buildAnnotatedString {
 
-                        // buildAnnotatedString is a way to style text within text. Pretty cool!
-                        // https://developer.android.com/jetpack/compose/text
-                        Text(
-                            buildAnnotatedString {
-
-                                withStyle(
-                                    style = SpanStyle(
-                                        color = MaterialTheme.colorScheme.tertiary,
-                                        fontWeight = FontWeight.Bold
-                                    )
-                                ) {
-                                    append("Welcome! ")
-                                }
-
-                                append(
-                                    "Use the list below to find movies worth watching. For" +
-                                            " movies you've watched, leave an honest reviews" +
-                                            " for others to see."
+                            withStyle(
+                                style = SpanStyle(
+                                    color = MaterialTheme.colorScheme.secondary,
+                                    fontWeight = FontWeight.Bold
                                 )
-                            },
-                            color = MaterialTheme.colorScheme.tertiary,
-                            fontSize = MaterialTheme.typography.bodyLarge.fontSize
-                        )
-                    }
+                            ) {
+                                append("Welcome! ")
+                            }
+
+                            append(
+                                "Use the list below to find movies worth watching. For" +
+                                        " movies you've watched, leave an honest reviews" +
+                                        " for others to see."
+                            )
+                        },
+                        color = MaterialTheme.colorScheme.secondary,
+                        fontSize = MaterialTheme.typography.bodyLarge.fontSize
+                    )
                 }
             }
 
@@ -189,27 +199,11 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
                             contentPadding = PaddingValues(start = 14.dp, end = 17.dp)
                         ) {
 
-                            Row(
-                                verticalAlignment = Alignment.CenterVertically
-                            ) {
-
-                                // Found some built in icons!
-                                // https://developer.android.com/reference/kotlin/androidx/compose/material/icons/package-summary
-                                Icon(
-                                    imageVector = Icons.Filled.Star,
-                                    contentDescription = "Star Ratings",
-                                    tint = Color.Yellow,
-                                    modifier = Modifier.size(16.dp)
-                                )
-
-                                Spacer(modifier = Modifier.width(6.dp))
-
-                                Text(
-                                    text = "Reviews & Details".uppercase(),
-                                    color = MaterialTheme.colorScheme.onPrimary,
-                                    fontWeight = FontWeight.Bold
-                                )
-                            }
+                            Text(
+                                text = "Reviews & Details".uppercase(),
+                                color = MaterialTheme.colorScheme.onPrimary,
+                                fontWeight = FontWeight.Bold
+                            )
                         }
                     }
                 }

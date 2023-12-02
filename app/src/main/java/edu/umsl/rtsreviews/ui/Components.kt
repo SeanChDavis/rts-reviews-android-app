@@ -2,6 +2,7 @@ package edu.umsl.rtsreviews.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -9,26 +10,30 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Slider
+import androidx.compose.material3.SliderDefaults
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle.Companion.Italic
@@ -97,6 +102,7 @@ fun ExpandableReviewsSection(reviews: List<Review>) {
 
                             Text(
                                 text = "Rating: ${"%.2f".format(review.rating)}",
+                                color = MaterialTheme.colorScheme.tertiary,
                                 fontWeight = FontWeight.Bold,
                                 style = MaterialTheme.typography.bodyMedium,
                             )
@@ -117,7 +123,7 @@ fun ExpandableReviewsSection(reviews: List<Review>) {
             modifier = Modifier
                 .fillMaxWidth()
                 .background(
-                    color = Color(0xFFFDF7E9),
+                    color = Color(0xFFECECEC),
                     shape = RoundedCornerShape(8.dp)
                 )
         ) {
@@ -128,7 +134,7 @@ fun ExpandableReviewsSection(reviews: List<Review>) {
 
                 Text(
                     text = "This movie currently has no reviews.",
-                    color = Color(0xFF746239),
+                    color = Color(0xFF919191),
                     fontSize = MaterialTheme.typography.bodyMedium.fontSize,
                     fontStyle = Italic,
                     fontWeight = FontWeight.SemiBold,
@@ -171,7 +177,7 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
         Text(
             text = "Submit your own review:",
             Modifier.padding(bottom = 4.dp),
-            color = MaterialTheme.colorScheme.onBackground,
+            color = MaterialTheme.colorScheme.secondary,
             style = MaterialTheme.typography.titleSmall,
         )
 
@@ -184,7 +190,7 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
             colors = OutlinedTextFieldDefaults.colors(
                 cursorColor = MaterialTheme.colorScheme.primary,
                 focusedBorderColor = MaterialTheme.colorScheme.primary,
-                unfocusedBorderColor = MaterialTheme.colorScheme.secondary,
+                unfocusedBorderColor = Color(0xFFD0CDDA),
             ),
         )
 
@@ -192,22 +198,45 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
             modifier = Modifier.height(30.dp)
         )
 
-        Text(
-            text = "Rate from 0 to 5:",
-            color = MaterialTheme.colorScheme.onBackground,
-            fontWeight = FontWeight.Bold,
-            style = MaterialTheme.typography.titleSmall,
-        )
+        Row (
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+
+            Text(
+                text = "Rate from 0 to 5:",
+                color = MaterialTheme.colorScheme.secondary,
+                fontWeight = FontWeight.Bold,
+                style = MaterialTheme.typography.titleSmall,
+            )
+
+            Text(
+                text = "%.2f".format(rating),
+                color = MaterialTheme.colorScheme.tertiary,
+                fontWeight = FontWeight.Bold,
+                style = MaterialTheme.typography.titleSmall,
+            )
+        }
 
         Slider(
             value = rating.toFloat(),
             onValueChange = { rating = it.toDouble() },
+            modifier = Modifier
+                .padding(top = 8.dp, bottom = 8.dp)
+                .background(
+                    color = Color(0xFFF2EFFC),
+                    shape = RoundedCornerShape(8.dp)
+                ),
             steps = 49,
-            valueRange = 0f..5f
-        )
-
-        Text(
-            text = "%.2f".format(rating)
+            valueRange = 0f..5f,
+            colors = SliderDefaults.colors(
+                activeTickColor = MaterialTheme.colorScheme.primary,
+                activeTrackColor = MaterialTheme.colorScheme.primary,
+                inactiveTickColor = MaterialTheme.colorScheme.tertiary,
+                inactiveTrackColor = MaterialTheme.colorScheme.tertiary,
+                thumbColor = MaterialTheme.colorScheme.primary,
+            ),
         )
 
         Spacer(
@@ -277,12 +306,36 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
                 // RM This is the Snackbar message
                 snackbarMessage = "Review submitted!"
             },
+            modifier = Modifier
+                .background(
+                    color = MaterialTheme.colorScheme.primary,
+                    shape = RoundedCornerShape(8.dp)
+                ),
             enabled = reviewText.isNotEmpty() && !isSubmitting
         ) {
             if (isSubmitting) {
                 CircularProgressIndicator()
             } else {
-                Text("Submit your review!")
+
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+
+                    Icon(
+                        imageVector = Icons.Filled.Star,
+                        contentDescription = "Star Icon",
+                        tint = Color(0xFFF8B728),
+                        modifier = Modifier.size(20.dp)
+                    )
+
+                    Spacer(modifier = Modifier.width(8.dp))
+
+                    Text(
+                        text = "Submit your review!".uppercase(),
+                        color = MaterialTheme.colorScheme.onPrimary,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
             }
         }
     }

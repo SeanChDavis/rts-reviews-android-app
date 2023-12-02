@@ -82,6 +82,7 @@ class MoviesViewModel : ViewModel() {
                         // Get the movie data
                         val movie = movieSnapshot.getValue(Movie::class.java)
 
+                        // If the movie is not null
                         movie?.let {
 
                             // Update the movie ID with the Firebase key
@@ -94,6 +95,9 @@ class MoviesViewModel : ViewModel() {
                             fetchAndCalculateAverageRating(updatedMovie)
                         }
                     }
+
+                    // Reverse the order of the movies in the list (newest first)
+                    movies.reverse()
 
                     // Update the movies StateFlow
                     _movies.value = movies

@@ -1,66 +1,78 @@
 [
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/xml/data_extraction_rules.xml"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/xml_backup_rules.xml.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/xml/backup_rules.xml"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/drawable_star_bg.png.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/drawable/star_bg.png"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/drawable_rts_reviews_logo.png.flat",
+        "source": "edu.umsl.rtsreviews.app-main-60:/drawable/rts_reviews_logo.png"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/drawable_ic_launcher_background.xml.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/xml/backup_rules.xml"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/drawable_rts_reviews_logo.png.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/drawable/rts_reviews_logo.png"
     },
     {
-        "merged": "edu.umsl.rtsreviews.app-merged_res-58:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "edu.umsl.rtsreviews.app-main-60:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/seandavis/.gradle/daemon/8.2/edu.umsl.rtsreviews.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
     }
 ]
