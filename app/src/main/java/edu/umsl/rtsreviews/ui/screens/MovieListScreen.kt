@@ -1,8 +1,12 @@
 package edu.umsl.rtsreviews.ui.screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
@@ -17,26 +21,26 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Star
-import androidx.compose.material3.FilledTonalButton
+import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.SnackbarDuration
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
 import edu.umsl.rtsreviews.MoviesViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.launch
 
 /**
  * === SCREEN 1 (default) - Movie List
@@ -47,11 +51,6 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
 
     // Get the movies from the MoviesViewModel
     val movies by moviesViewModel.movies.collectAsState()
-
-    // Get the reviews and average review rating from the ViewModel
-    // (Needed to calculate the average rating based on Firebase reviews data)
-    val reviews by moviesViewModel.reviews.collectAsState()
-    val movieRating = moviesViewModel.getAverageRating(reviews)
 
     // Navigate to the movie details screen (just for convenience)
     // TODO RM this is the spot that you get the path
@@ -67,10 +66,13 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
      * --- https://developer.android.com/jetpack/compose/layout
      * ~ Notes by Sean
      */
-    Surface(modifier = Modifier.fillMaxSize()) {
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background
+    ) {
 
         LazyColumn(
-            modifier = Modifier.padding(18.dp)
+            modifier = Modifier.padding(20.dp)
         ) {
 
             // Simple app introduction. Not an official app header, but it works.
@@ -80,21 +82,42 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
             // ~ Notes by Sean
             item {
 
-                Column( modifier = Modifier.padding(bottom = 24.dp) )
-                {
+                Column(
+                    modifier = Modifier.padding(bottom = 32.dp)
+                ) {
 
                     Text(
                         text = "RTS Reviews",
+                        modifier = Modifier.padding(top = 10.dp, bottom = 16.dp),
                         style = MaterialTheme.typography.titleLarge,
-                        modifier = Modifier.padding(bottom = 8.dp)
                     )
 
-                    Text(
-                        text = "Welcome to RTS Reviews! This is a simple app that allows you to " +
-                                "view and review movies. You can also view other people's reviews " +
-                                "and add your own. Enjoy!",
-                        style = MaterialTheme.typography.bodyMedium
-                    )
+                    Column {
+
+                        // buildAnnotatedString is a way to style text within text. Pretty cool!
+                        // https://developer.android.com/jetpack/compose/text
+                        Text(
+                            buildAnnotatedString {
+
+                                withStyle(
+                                    style = SpanStyle(
+                                        color = MaterialTheme.colorScheme.tertiary,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                ) {
+                                    append("Welcome! ")
+                                }
+
+                                append(
+                                    "Use the list below to find movies worth watching. For" +
+                                            " movies you've watched, leave an honest reviews" +
+                                            " for others to see."
+                                )
+                            },
+                            color = MaterialTheme.colorScheme.tertiary,
+                            fontSize = MaterialTheme.typography.bodyLarge.fontSize
+                        )
+                    }
                 }
             }
 
@@ -126,24 +149,44 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
 
                         Text(
                             text = movie.title,
+                            modifier = Modifier.clickable { clickToMovie(movie.id) },
+                            color = MaterialTheme.colorScheme.onBackground,
                             style = MaterialTheme.typography.titleMedium,
-                            modifier = Modifier.clickable { clickToMovie(movie.id) }
                         )
 
                         // Only show the rating if it's greater than 0.0
-                        if ( movie.averageRating > 0.0 ) Text(
-                            text = "Rated ${"%.2f".format(movie.averageRating)}",
-                            style = MaterialTheme.typography.bodyMedium
-                        )
+                        if (movie.averageRating > 0.0)
+                            Text(
+                                buildAnnotatedString {
+
+                                    append("Rating: ")
+
+                                    withStyle(
+                                        style = SpanStyle(
+                                            color = MaterialTheme.colorScheme.secondary,
+                                            fontSize = MaterialTheme.typography.bodyMedium.fontSize,
+                                            fontWeight = FontWeight.ExtraBold
+                                        )
+                                    ) {
+                                        append("${"%.2f".format(movie.averageRating)}")
+                                    }
+                                },
+                                color = MaterialTheme.colorScheme.secondary,
+                                fontSize = MaterialTheme.typography.bodyMedium.fontSize
+                            )
                         else Text(
-                            text = "Not yet rated."
+                            text = "Not yet rated.",
+                            color = MaterialTheme.colorScheme.secondary,
+                            fontSize = MaterialTheme.typography.bodyMedium.fontSize,
                         )
 
                         Spacer(modifier = Modifier.height(8.dp))
 
-                        FilledTonalButton(
+                        Button(
                             onClick = { clickToMovie(movie.id) },
-                            modifier = Modifier.padding(top = 8.dp)
+                            modifier = Modifier.padding(top = 8.dp),
+                            shape = RoundedCornerShape(8.dp),
+                            contentPadding = PaddingValues(start = 14.dp, end = 17.dp)
                         ) {
 
                             Row(
@@ -155,16 +198,16 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
                                 Icon(
                                     imageVector = Icons.Filled.Star,
                                     contentDescription = "Star Ratings",
-                                    tint = MaterialTheme.colorScheme.primary,
+                                    tint = Color.Yellow,
                                     modifier = Modifier.size(16.dp)
                                 )
 
-                                Spacer(modifier = Modifier.width(8.dp))
+                                Spacer(modifier = Modifier.width(6.dp))
 
                                 Text(
-                                    "Reviews & Details",
-                                    color = MaterialTheme.colorScheme.primary,
-                                    modifier = Modifier.padding(0.dp)
+                                    text = "Reviews & Details".uppercase(),
+                                    color = MaterialTheme.colorScheme.onPrimary,
+                                    fontWeight = FontWeight.Bold
                                 )
                             }
                         }

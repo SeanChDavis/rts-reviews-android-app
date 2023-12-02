@@ -1,5 +1,6 @@
 package edu.umsl.rtsreviews.ui.screens
 
+import android.text.style.LineHeightSpan
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -21,6 +22,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
 import com.google.firebase.database.FirebaseDatabase
 import edu.umsl.rtsreviews.MoviesViewModel
@@ -31,9 +33,8 @@ import edu.umsl.rtsreviews.ui.ReviewForm
  * === SCREEN 2 - Single Movie
  * The individual movie screen, accessed from the default app screen movie list
  */
-// TODO add navController to below
 @Composable
-fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
+fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel, navController: NavController) {
 
     // Get the movie from the ViewModel
     val movie by moviesViewModel.selectedMovie.collectAsState()
@@ -69,7 +70,7 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
      * ~ Notes by Sean
      */
     LazyColumn(
-        modifier = Modifier.padding(18.dp)
+        modifier = Modifier.padding(20.dp)
     ) {
 
         // Must use "item" in order to use the LazyColumn.
@@ -103,12 +104,13 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
                         Text(
                             text = it.title,
                             Modifier.padding(bottom = 8.dp),
+                            color = MaterialTheme.colorScheme.onBackground,
                             style = MaterialTheme.typography.titleLarge,
                         )
 
                         // Only show the rating if it's greater than 0.0
                         if ( movieRating > 0.0 ) Text(
-                            text = "Overall rating: ${"%.2f".format(movieRating)}"
+                            text = "Rating: ${"%.2f".format(movieRating)}"
                         )
                         else Text(
                             text = "Not yet rated."
@@ -128,6 +130,23 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
             }
 
             Spacer(modifier = Modifier.height(16.dp))
+
+            // Start the reviews section
+            Text(
+                text = "Community Reviews",
+                Modifier.padding(bottom = 8.dp),
+                color = MaterialTheme.colorScheme.tertiary,
+                style = MaterialTheme.typography.titleMedium,
+            )
+
+            Text(
+                text = "See what others are saying about this movie and add your own review! Be honest, but let's keep it clean.",
+                color = MaterialTheme.colorScheme.secondary,
+                fontSize = MaterialTheme.typography.bodyMedium.fontSize,
+                lineHeight = MaterialTheme.typography.bodyMedium.lineHeight,
+            )
+
+            Spacer(modifier = Modifier.height(20.dp))
 
             // Show a loading indicator if we're still loading the reviews
             // Otherwise, show the reviews button toggle
@@ -149,7 +168,7 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel) {
              * --- See Components.kt for more details.
              * ~ Notes by Sean
              */
-            ReviewForm(movieId = movieId) { review ->
+            ReviewForm(movieId = movieId, navController) { review ->
                 moviesViewModel.setLoading(true)
 
                 val reviewsRef = FirebaseDatabase.getInstance().getReference("reviews")
