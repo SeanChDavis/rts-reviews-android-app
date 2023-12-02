@@ -90,7 +90,7 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel, navCon
         )
 
         LazyColumn(
-            modifier = Modifier.padding(20.dp)
+            modifier = Modifier.padding(top = 20.dp, end = 20.dp, bottom = 0.dp, start = 20.dp)
         ) {
 
             // Must use "item" in order to use the LazyColumn.

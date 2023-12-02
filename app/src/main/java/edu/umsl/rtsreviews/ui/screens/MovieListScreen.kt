@@ -81,7 +81,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
         )
 
         LazyColumn(
-            modifier = Modifier.padding(20.dp)
+            modifier = Modifier.padding(top = 20.dp, end = 20.dp, bottom = 0.dp, start = 20.dp)
         ) {
 
             // Simple app introduction. Not an official app header, but it works.
@@ -173,7 +173,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
 
                                     withStyle(
                                         style = SpanStyle(
-                                            color = MaterialTheme.colorScheme.secondary,
+                                            color = MaterialTheme.colorScheme.tertiary,
                                             fontSize = MaterialTheme.typography.bodyMedium.fontSize,
                                             fontWeight = FontWeight.ExtraBold
                                         )
