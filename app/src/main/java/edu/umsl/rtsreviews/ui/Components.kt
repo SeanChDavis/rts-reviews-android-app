@@ -54,6 +54,9 @@ fun ExpandableReviewsSection(reviews: List<Review>) {
     // Only display the review-related UI if there are reviews
     if (reviews.isNotEmpty()) {
 
+        // Reverse the list of reviews so the newest reviews are at the top
+        val newestReviews = reviews.reversed()
+
         Column {
 
             // Toggle button for expanding/collapsing the reviews
@@ -78,7 +81,7 @@ fun ExpandableReviewsSection(reviews: List<Review>) {
 
             // Conditionally display the reviews based on "expanded" state
             if (expanded) {
-                reviews.forEach { review ->
+                newestReviews.forEach { review ->
 
                     Box(
                         modifier = Modifier
@@ -166,7 +169,7 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
     LaunchedEffect(snackbarVisibleState) {
         if (snackbarVisibleState) {
             // Display the Snackbar for a short duration
-            delay(600000)
+            delay(6000)
             // Reset the state to hide the Snackbar
             snackbarVisibleState = false
         }
@@ -341,5 +344,9 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
                 }
             }
         }
+
+        Spacer(
+            modifier = Modifier.height(50.dp)
+        )
     }
 }

@@ -155,6 +155,8 @@ class MoviesViewModel : ViewModel() {
             // Update the movie with the new average rating.
             movie.copy(averageRating = averageRating)
         }
+
+        // Update the movies StateFlow
         _movies.value = updatedMovies
     }
 
@@ -271,6 +273,8 @@ class MoviesViewModel : ViewModel() {
 
                         // Parse snapshot to reviews and update the StateFlow
                         val reviews = snapshot.children.mapNotNull { it.getValue(Review::class.java) }
+
+                        // Update the reviews StateFlow
                         _reviews.value = reviews
 
                         // Set loading to false
