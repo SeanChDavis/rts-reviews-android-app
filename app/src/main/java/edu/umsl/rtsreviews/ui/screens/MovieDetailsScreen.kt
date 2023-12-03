@@ -26,6 +26,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
@@ -40,7 +44,11 @@ import edu.umsl.rtsreviews.ui.ReviewForm
  * The individual movie screen, accessed from the default app screen movie list
  */
 @Composable
-fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel, navController: NavController) {
+fun MovieDetailsScreen(
+    movieId: String,
+    moviesViewModel: MoviesViewModel,
+    navController: NavController
+) {
 
     // Get the movie from the ViewModel
     val movie by moviesViewModel.selectedMovie.collectAsState()
@@ -129,12 +137,29 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel, navCon
                             )
 
                             // Only show the rating if it's greater than 0.0
-                            if ( movieRating > 0.0 ) Text(
-                                text = "Rating: ${"%.1f".format(movieRating)}"
-                            )
-                            else Text(
-                                text = "Not yet rated."
-                            )
+                            if (movieRating > 0.0)
+                                Text(
+                                    buildAnnotatedString {
+
+                                        append("Rating: ")
+
+                                        withStyle(
+                                            style = SpanStyle(
+                                                color = MaterialTheme.colorScheme.tertiary,
+                                                fontWeight = FontWeight.ExtraBold
+                                            )
+                                        ) {
+                                            append("${"%.1f".format(movieRating)}")
+                                        }
+                                    },
+                                    color = MaterialTheme.colorScheme.onBackground,
+                                    fontSize = MaterialTheme.typography.bodyMedium.fontSize
+                                )
+                            else
+                                Text(
+                                    text = "Not yet rated.",
+                                    color = MaterialTheme.colorScheme.onBackground,
+                                )
                         }
                     }
 

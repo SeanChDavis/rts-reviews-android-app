@@ -112,7 +112,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
 
                             withStyle(
                                 style = SpanStyle(
-                                    color = MaterialTheme.colorScheme.secondary,
+                                    color = MaterialTheme.colorScheme.tertiary,
                                     fontWeight = FontWeight.Bold
                                 )
                             ) {
@@ -121,8 +121,8 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
 
                             append(
                                 "Use the list below to find movies worth watching. For" +
-                                        " movies you've watched, leave an honest reviews" +
-                                        " for others to see."
+                                        " movies you've watched, leave an honest review" +
+                                        " for others to read."
                             )
                         },
                         color = MaterialTheme.colorScheme.secondary,

@@ -169,7 +169,7 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
     LaunchedEffect(snackbarVisibleState) {
         if (snackbarVisibleState) {
             // Display the Snackbar for a short duration
-            delay(6000)
+            delay(10000)
             // Reset the state to hide the Snackbar
             snackbarVisibleState = false
         }
@@ -211,7 +211,7 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
                     }
 
                 },
-                shape = MaterialTheme.shapes.medium,
+                shape = RoundedCornerShape(8.dp),
                 containerColor = MaterialTheme.colorScheme.secondary,
             ) {
                 Text(text = snackbarMessage)
