@@ -34,6 +34,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
@@ -81,7 +82,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
         )
 
         LazyColumn(
-            modifier = Modifier.padding(top = 20.dp, end = 20.dp, bottom = 0.dp, start = 20.dp)
+            modifier = Modifier.padding(top = 5.dp, end = 20.dp, bottom = 5.dp, start = 20.dp)
         ) {
 
             // Simple app introduction. Not an official app header, but it works.
@@ -92,7 +93,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
             item {
 
                 Column(
-                    modifier = Modifier.padding(bottom = 40.dp)
+                    modifier = Modifier.padding(bottom = 32.dp)
                 ) {
 
                     // RTS Reviews Logo!
@@ -112,7 +113,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
 
                             withStyle(
                                 style = SpanStyle(
-                                    color = MaterialTheme.colorScheme.tertiary,
+                                    color = MaterialTheme.colorScheme.onBackground,
                                     fontWeight = FontWeight.Bold
                                 )
                             ) {
@@ -128,6 +129,21 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
                         color = MaterialTheme.colorScheme.secondary,
                         fontSize = MaterialTheme.typography.bodyLarge.fontSize
                     )
+
+                    // Add a note that movies are rated out of 5 stars
+                    Row(
+                        modifier = Modifier.padding(top = 8.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+
+                        Text(
+                            text = "Movies are rated out of 5 stars.",
+                            color = MaterialTheme.colorScheme.tertiary,
+                            fontSize = MaterialTheme.typography.bodyMedium.fontSize,
+                            fontStyle = FontStyle.Italic,
+                            fontWeight = FontWeight.SemiBold,
+                        )
+                    }
                 }
             }
 
@@ -169,20 +185,20 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
                             Text(
                                 buildAnnotatedString {
 
-                                    append("Rating: ")
+                                    append("Rated ")
 
                                     withStyle(
                                         style = SpanStyle(
                                             color = MaterialTheme.colorScheme.tertiary,
                                             fontSize = MaterialTheme.typography.bodyMedium.fontSize,
-                                            fontWeight = FontWeight.ExtraBold
                                         )
                                     ) {
                                         append("${"%.1f".format(movie.averageRating)}")
                                     }
                                 },
                                 color = MaterialTheme.colorScheme.secondary,
-                                fontSize = MaterialTheme.typography.bodyMedium.fontSize
+                                fontSize = MaterialTheme.typography.bodyMedium.fontSize,
+                                fontWeight = FontWeight.ExtraBold
                             )
                         else Text(
                             text = "Not yet rated.",
@@ -200,7 +216,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
                         ) {
 
                             Text(
-                                text = "Reviews & Details".uppercase(),
+                                text = "Details & Reviews".uppercase(),
                                 color = MaterialTheme.colorScheme.onPrimary,
                                 fontWeight = FontWeight.Bold
                             )

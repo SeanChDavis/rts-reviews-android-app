@@ -141,19 +141,19 @@ fun MovieDetailsScreen(
                                 Text(
                                     buildAnnotatedString {
 
-                                        append("Rating: ")
+                                        append("Rated ")
 
                                         withStyle(
                                             style = SpanStyle(
                                                 color = MaterialTheme.colorScheme.tertiary,
-                                                fontWeight = FontWeight.ExtraBold
                                             )
                                         ) {
                                             append("${"%.1f".format(movieRating)}")
                                         }
                                     },
-                                    color = MaterialTheme.colorScheme.onBackground,
-                                    fontSize = MaterialTheme.typography.bodyMedium.fontSize
+                                    color = MaterialTheme.colorScheme.secondary,
+                                    fontSize = MaterialTheme.typography.bodyMedium.fontSize,
+                                    fontWeight = FontWeight.ExtraBold
                                 )
                             else
                                 Text(

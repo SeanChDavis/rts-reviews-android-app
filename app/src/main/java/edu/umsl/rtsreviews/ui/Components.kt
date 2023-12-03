@@ -104,7 +104,7 @@ fun ExpandableReviewsSection(reviews: List<Review>) {
                             )
 
                             Text(
-                                text = "Rating: ${"%.1f".format(review.rating)}",
+                                text = "Rated ${"%.1f".format(review.rating)}",
                                 color = MaterialTheme.colorScheme.tertiary,
                                 fontWeight = FontWeight.Bold,
                                 style = MaterialTheme.typography.bodyMedium,
@@ -225,7 +225,7 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
         Text(
             text = "Submit your own review:",
             Modifier.padding(bottom = 4.dp),
-            color = MaterialTheme.colorScheme.secondary,
+            color = MaterialTheme.colorScheme.onBackground,
             style = MaterialTheme.typography.titleSmall,
         )
 
@@ -254,7 +254,7 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
 
             Text(
                 text = "Rate from 0 to 5:",
-                color = MaterialTheme.colorScheme.secondary,
+                color = MaterialTheme.colorScheme.onBackground,
                 fontWeight = FontWeight.Bold,
                 style = MaterialTheme.typography.titleSmall,
             )
