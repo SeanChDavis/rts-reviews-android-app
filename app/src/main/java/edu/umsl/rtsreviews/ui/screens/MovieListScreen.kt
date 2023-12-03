@@ -178,7 +178,7 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
                                             fontWeight = FontWeight.ExtraBold
                                         )
                                     ) {
-                                        append("${"%.2f".format(movie.averageRating)}")
+                                        append("${"%.1f".format(movie.averageRating)}")
                                     }
                                 },
                                 color = MaterialTheme.colorScheme.secondary,

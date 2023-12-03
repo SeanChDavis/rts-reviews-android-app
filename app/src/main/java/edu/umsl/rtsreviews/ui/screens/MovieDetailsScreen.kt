@@ -130,7 +130,7 @@ fun MovieDetailsScreen(movieId: String, moviesViewModel: MoviesViewModel, navCon
 
                             // Only show the rating if it's greater than 0.0
                             if ( movieRating > 0.0 ) Text(
-                                text = "Rating: ${"%.2f".format(movieRating)}"
+                                text = "Rating: ${"%.1f".format(movieRating)}"
                             )
                             else Text(
                                 text = "Not yet rated."

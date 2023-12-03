@@ -104,7 +104,7 @@ fun ExpandableReviewsSection(reviews: List<Review>) {
                             )
 
                             Text(
-                                text = "Rating: ${"%.2f".format(review.rating)}",
+                                text = "Rating: ${"%.1f".format(review.rating)}",
                                 color = MaterialTheme.colorScheme.tertiary,
                                 fontWeight = FontWeight.Bold,
                                 style = MaterialTheme.typography.bodyMedium,
@@ -260,7 +260,7 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
             )
 
             Text(
-                text = "%.2f".format(rating),
+                text = "%.1f".format(rating),
                 color = MaterialTheme.colorScheme.tertiary,
                 fontWeight = FontWeight.Bold,
                 style = MaterialTheme.typography.titleSmall,
@@ -291,6 +291,10 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
             modifier = Modifier.height(30.dp)
         )
 
+        // If button is disabled, style it differently
+        // https://developer.android.com/jetpack/compose/material3#disabled-buttons
+
+
         // When the user submits the review, create a Review object and pass it to the callback.
         // The callback is defined in MovieDetailsScreen.kt as a lambda function.
         Button(
@@ -312,12 +316,12 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
                 // RM This is the Snackbar message
                 snackbarMessage = "Review submitted!"
             },
-            modifier = Modifier
-                .background(
-                    color = MaterialTheme.colorScheme.primary,
-                    shape = RoundedCornerShape(8.dp)
-                ),
-            enabled = reviewText.isNotEmpty() && !isSubmitting
+            enabled = reviewText.isNotEmpty() && !isSubmitting,
+            shape = RoundedCornerShape(8.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.primary,
+                disabledContainerColor = Color(0xFFF2EFFC),
+            )
         ) {
             if (isSubmitting) {
                 CircularProgressIndicator()
@@ -330,7 +334,9 @@ fun ReviewForm(movieId: String, navController: NavController, onReviewSubmitted:
                     Icon(
                         imageVector = Icons.Filled.Star,
                         contentDescription = "Star Icon",
-                        tint = Color(0xFFF8B728),
+                        tint = if (reviewText.isNotEmpty() && !isSubmitting) Color(0xFFF8B728) else Color(
+                            0xFFC8C0DD
+                        ),
                         modifier = Modifier.size(20.dp)
                     )
 
