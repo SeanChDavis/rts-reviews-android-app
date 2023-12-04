@@ -2,6 +2,7 @@ package edu.umsl.rtsreviews.ui.screens
 
 import android.text.style.LineHeightSpan
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -123,6 +124,11 @@ fun MovieDetailsScreen(
                                 .width(100.dp)
                                 .aspectRatio(0.7f)
                                 .clip(RoundedCornerShape(6.dp))
+                                .border(
+                                    width = 3.dp,
+                                    color = MaterialTheme.colorScheme.tertiary,
+                                    shape = RoundedCornerShape(6.dp)
+                                )
                         )
 
                         Spacer(modifier = Modifier.width(16.dp))

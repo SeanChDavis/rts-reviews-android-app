@@ -1,6 +1,7 @@
 package edu.umsl.rtsreviews.ui.screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -30,6 +31,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.SpanStyle
@@ -165,6 +167,11 @@ fun MovieListScreen(moviesViewModel: MoviesViewModel, navController: NavControll
                             .aspectRatio(0.7f)
                             .clip(RoundedCornerShape(6.dp))
                             .clickable { clickToMovie(movie.id) }
+                            .border(
+                                width = 3.dp,
+                                color = MaterialTheme.colorScheme.primary,
+                                shape = RoundedCornerShape(6.dp)
+                            )
                     )
 
                     Column(
