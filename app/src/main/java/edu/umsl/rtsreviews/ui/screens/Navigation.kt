@@ -36,7 +36,7 @@ fun RTSReviewsNavigation(moviesViewModel: MoviesViewModel) {
             val movieId = backStackEntry.arguments?.getString("movieId") ?: ""
 
             // Pass the MoviesViewModel instance to the MovieDetailsScreen
-            MovieDetailsScreen(movieId, moviesViewModel)
+            MovieDetailsScreen(movieId, moviesViewModel, navController)
         }
     }
 }

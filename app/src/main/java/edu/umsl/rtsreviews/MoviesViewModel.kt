@@ -55,6 +55,9 @@ class MoviesViewModel : ViewModel() {
 
         // Fetch the movies from Firebase.
         fetchMovies()
+
+        // Listen for changes in reviews in Firebase.
+        listenForReviewChanges()
     }
 
     /**
@@ -79,6 +82,7 @@ class MoviesViewModel : ViewModel() {
                         // Get the movie data
                         val movie = movieSnapshot.getValue(Movie::class.java)
 
+                        // If the movie is not null
                         movie?.let {
 
                             // Update the movie ID with the Firebase key
@@ -92,6 +96,9 @@ class MoviesViewModel : ViewModel() {
                         }
                     }
 
+                    // Reverse the order of the movies in the list (newest first)
+                    movies.reverse()
+
                     // Update the movies StateFlow
                     _movies.value = movies
                 }
@@ -104,7 +111,58 @@ class MoviesViewModel : ViewModel() {
     }
 
     /**
+     * Listen for changes in reviews in Firebase
+     * (This is used for updating ratings for all movies)
+     */
+    private fun listenForReviewChanges() {
+
+        // Grab an instance of the database pointing at the "reviews' node.
+        val reviewsRef = FirebaseDatabase.getInstance().getReference("reviews")
+
+        // Add a listener for changes in reviews.
+        reviewsRef.addValueEventListener(object : ValueEventListener {
+
+            // When there's a change...
+            override fun onDataChange(snapshot: DataSnapshot) {
+
+                // ...get the new Review(s) data...
+                val allReviews = snapshot.children.mapNotNull { it.getValue(Review::class.java) }
+
+                // ...and recalculate the average rating for all movies based on all reviews.
+                recalculateRatingsBasedOnReviews(allReviews)
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                // TODO Handle error
+            }
+        })
+    }
+
+    /**
+     * Recalculate the average rating for all movies based on all reviews
+     */
+    private fun recalculateRatingsBasedOnReviews(allReviews: List<Review>) {
+
+        // For each movie, get the reviews for that movie and calculate the average rating.
+        val updatedMovies = _movies.value.map { movie ->
+
+            // Get the reviews for the movie.
+            val reviewsForMovie = allReviews.filter { it.movieId == movie.id }
+
+            // Calculate the average rating for the movie.
+            val averageRating = if (reviewsForMovie.isNotEmpty()) reviewsForMovie.map { it.rating }.average() else 0.0
+
+            // Update the movie with the new average rating.
+            movie.copy(averageRating = averageRating)
+        }
+
+        // Update the movies StateFlow
+        _movies.value = updatedMovies
+    }
+
+    /**
      * Get information about updated movie ratings
+     * (This is used in MovieDetailsScreen.kt for a single movie)
      */
     private fun fetchAndCalculateAverageRating(movie: Movie) {
 
@@ -174,7 +232,7 @@ class MoviesViewModel : ViewModel() {
             val movieRef = FirebaseDatabase.getInstance().getReference("movies").child(movieId)
 
             // Listen for changes in Firebase and update the _selectedMovie StateFlow
-            movieRef.addListenerForSingleValueEvent(object : ValueEventListener {
+            movieRef.addValueEventListener(object : ValueEventListener {
 
                 override fun onDataChange(snapshot: DataSnapshot) {
 
@@ -209,12 +267,14 @@ class MoviesViewModel : ViewModel() {
 
             // Listen for changes in Firebase and update the _reviews StateFlow
             reviewsRef.orderByChild("movieId").equalTo(movieId)
-                .addListenerForSingleValueEvent(object : ValueEventListener {
+                .addValueEventListener(object : ValueEventListener {
 
                     override fun onDataChange(snapshot: DataSnapshot) {
 
                         // Parse snapshot to reviews and update the StateFlow
                         val reviews = snapshot.children.mapNotNull { it.getValue(Review::class.java) }
+
+                        // Update the reviews StateFlow
                         _reviews.value = reviews
 
                         // Set loading to false
@@ -240,7 +300,7 @@ class MoviesViewModel : ViewModel() {
 
         // Order the reviews by the movie they're attached to and listen for review changes.
         reviewsRef.orderByChild("movieId").equalTo(movieId)
-            .addListenerForSingleValueEvent(object : ValueEventListener {
+            .addValueEventListener(object : ValueEventListener {
 
                 override fun onDataChange(snapshot: DataSnapshot) {
 
